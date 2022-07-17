@@ -1,0 +1,63 @@
+.wallpapers {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+}
+#header__title {
+  font-weight: 700;
+  font-size: 30px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding-top: 2%;
+  color: white;
+}
+.header__subtitle {
+  color: white;
+  position: relative;
+  font-size: 50px;
+  margin-top: 80px;
+  text-align: center;
+  padding-top: 7%;
+}
+.nav__bar {
+  position: relative;
+  background-color: rgb(179, 240, 199);
+  padding: 20px;
+  margin-top: 20px;
+}
+.nav__bar a {
+  text-decoration: none;
+  color: black;
+}
+.nav__bar > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.nav__bar a:hover {
+  color: tomato;
+}
+.footer__center {
+  position: fixed;
+  bottom: 0px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+.footer__center > ul {
+  font-size: 20px;
+  display: flex;
+  gap: 100px;
+}
+.footer__center a {
+  text-decoration: none;
+  color: black;
+}
+.footer__center a:hover {
+  color: red;
+}
